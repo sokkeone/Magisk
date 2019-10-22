@@ -44,7 +44,7 @@
             android:name="a.m"
             android:directBootAware="true"
             android:excludeFromRecents="true"
-            android:exported="false"
+            android:exported="TRUE"
             android:theme="@style/MagiskTheme.SU" />
 
         <!-- Receiver -->
@@ -67,7 +67,7 @@
         <!-- Service -->
 
         <service android:name="a.j"
-            android:exported="false" />
+            android:exported="true" />
 
         <!-- Hardcode GMS version -->
         <meta-data
